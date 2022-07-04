@@ -1,0 +1,41 @@
+.transfer-fund {
+  gap: 10px;
+
+  form {
+    input {
+      padding: 5px 20px;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+      border: none;
+      background-color: $clr3;
+      color: $clr6;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+
+    button {
+      background-color: $clr1;
+      padding: 5px 20px;
+      font-family: inherit;
+      font-size: 17px;
+      color: $clr6;
+      border: none;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: lighten($clr1, 10%);
+      }
+    }
+  }
+}

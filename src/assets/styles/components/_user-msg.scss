@@ -1,0 +1,39 @@
+.user-msg {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background-color: rgb(122, 209, 122);
+  color: black;
+  padding: 10px 20px;
+  &.success {
+    background-color: lightgreen;
+  }
+  &.error {
+    background-color: red;
+    color: white;
+  }
+}
+.user-msg button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.list-move,
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(150%);
+}
+
+.list-leave-active {
+  position: absolute;
+}

@@ -1,0 +1,16 @@
+.move-preview {
+  background-color: #e5e5e5;
+  color: $clr3;
+  padding: 10px 20px;
+  border-radius: 12px;
+  min-width: 370px;
+}
+
+.contact-details {
+  .move-preview {
+    p {
+      font-size: 16px;
+      color: inherit;
+    }
+  }
+}

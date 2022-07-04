@@ -1,0 +1,24 @@
+.contact-list {
+  background-color: $clr2;
+
+  .contact-preview-container {
+    gap: 200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e5e5e529;
+    // box-shadow: inset -1px 3px 1px 5px $clr2, 0px 0px 0px 0px #0B325E, 5px 5px 8px 5px rgba(0, 0, 0, 0.58);
+
+    width: fit-content;
+
+    .remove-btn {
+      cursor: pointer;
+      border: none;
+      background-color: inherit;
+      color: $clr6;
+
+      &:hover{
+        color: $clr1;
+
+      }
+    }
+  }
+}

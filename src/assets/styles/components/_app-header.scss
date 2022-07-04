@@ -1,0 +1,25 @@
+.app-header {
+  padding: 20px;
+  background-color: $clr7;
+  text-shadow: 4px 1px 7px rgba(0,0,0,0.65);
+  // border-bottom: 1px solid $clr1;
+
+  .logo {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  nav {
+    &>* {
+      margin-left: 20px;
+    }
+
+    &>*:hover {
+      color: $clr4;
+    }
+
+    .router-link-active {
+      color: $clr4;
+    }
+  }
+}

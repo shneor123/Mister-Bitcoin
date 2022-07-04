@@ -1,0 +1,70 @@
+.home {
+  background-color: $clr7;
+  border: 1px solid $clr3;
+  border-radius: 40px;
+  margin: 50px auto;
+  height: 150px;
+  width: 600px;
+
+  .home-container {
+    line-height: 2.5;
+    padding: 10px 20px;
+
+    .coins-img {
+      object-fit: contain;
+      height: 20px;
+      width: 30px;
+    }
+
+    span {
+      color: $clr4;
+    }
+  }
+}
+
+.next-btn {
+  right: 15%;
+  top: 60%;
+  position: absolute;
+  width: 100px;
+  background-color: $clr3;
+  padding: 8px 20px;
+  font-family: inherit;
+  font-size: 17px;
+  color: $clr6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($clr3, 10%);
+  }
+}
+
+.usd-live {
+  position: absolute;
+  right: 100px;
+  top: 130px;
+
+  .btc-to-usd-balance {
+    font-size: 2rem;
+    position: absolute;
+    color: $clr4;
+    right: 80px;
+    top: 30px;
+  }
+
+  .live-label {
+    margin-inline-start: 0.5em;
+    padding: 0 0.5em;
+    font-size: 0.8em;
+    text-transform: none;
+    background-color: $clr5;
+    color: red;
+    border-radius: 6em;
+  }
+}
+
+.chart-home-page {
+  background-color: rgb(42, 39, 39);
+}

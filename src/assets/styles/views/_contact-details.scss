@@ -1,0 +1,36 @@
+.contact-details {
+  gap: 20px;
+
+  p {
+    font-size: 18px;
+  }
+
+  p:first-of-type {
+    font-size: 24px;
+    font-family: lato-bold;
+    color: $clr1;
+  }
+
+  .contact-actions {
+    gap: 600px;
+
+    &>* {
+      padding: 10px 20px;
+      margin-top: 5px;
+      background-color: $clr3;
+      border-radius: 12px;
+
+      &:hover {
+        background-color: $clr1;
+        color: $clr6;
+      }
+    }
+  }
+
+  .contact-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+  }
+}

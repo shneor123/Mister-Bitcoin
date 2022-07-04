@@ -1,0 +1,21 @@
+.contact-preview {
+  margin: 20px 0;
+  gap: 30px;
+
+  .contact-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+  }
+
+  .contact-info {
+    line-height: 1.5;
+    min-width: 130px;
+
+    &:hover {
+      color: $clr1;
+    }
+  }
+}
